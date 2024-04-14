@@ -2,14 +2,14 @@
 Execution Steps
 1.	Setting up the Python environment: Run pip install -r requirements.txt to install all required packages.
 2.	Initialization:
-  •	Download word embedding files and place them in /input_data/glove_embeddings.
-  •	Download lexicon files and place them in /lexicon_files/.
-  •	Insert the dataset data.csv into /datasets/raw. After preprocessing, relocate data-processed.csv to /datasets/processed.
+	•	Download word embedding files and place them in /input_data/glove_embeddings.
+	•	Download lexicon files and place them in /lexicon_files/.
+	•	Insert the dataset data.csv into /datasets/raw. After preprocessing, relocate data-processed.csv to /datasets/processed.
 3.	Evaluation Process:
-  •	For machine learning analysis:
-    3.1.	Adjust config_ml.json as necessary.
-    3.2.	Execute models_evaluation.py.
-    3.3.	A folder will appear in /experiment_outputs/exp_ID1
+	•	For machine learning analysis:
+		3.1.	Adjust config_ml.json as necessary.
+		3.2.	Execute models_evaluation.py.
+		3.3.	A folder will appear in /experiment_outputs/exp_ID1
   •	For lexicon-based analysis:
     3.4.	Adjust config_lex.json accordingly.
     3.5.	Execute lexicon_evaluation_norm.py.
