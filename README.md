@@ -14,8 +14,9 @@ Execution Steps
     3.4.	Adjust config_lex.json accordingly.
     3.5.	Execute lexicon_evaluation_norm.py.
 4.	Post-processing Steps:
-  •	To standardize machine learning regression metrics, place the metrics folder in /post_processing/machine_learning_data/metrics_ml and run normalize_continuous_metrics.py.
-5.	Visualization Execution:
+  •	To standardize machine learning regression metrics, place the metrics folder in
+   /post_processing/machine_learning_data/metrics_ml and run normalize_continuous_metrics.py.
+6.	Visualization Execution:
   •	For machine learning visualizations:
   •	Ensure the metrics are located in /post_processing/machine_learning_data/metrics_ml.
   •	Execute either ML_plots_and_subplots.py or ML_subplots_violin_mean_median.py.
