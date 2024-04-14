@@ -1,0 +1,54 @@
+{
+    "modules": {
+        "Machine Learning": {
+            "active": true,
+            "models": {
+                "Naive Bayes": true,
+                "SVM": true,
+                "Decision Tree": true,
+                "Random Forest": true,
+                "Logistic Regression": true,
+                "Linear Regression": true,
+                "Gradient Boosting": true,
+                "KNN": true,
+                "ANN": true
+            }
+        },
+        "Deep Learning": {
+            "active": true,
+            "level":3,
+            "epochs":15,
+            "batch_size":64,
+            "models": {
+                "MLP": true,
+                "CNN": true,
+                "RNN": true,
+                "LSTM": true,
+                "GRU": true
+            }
+        },
+        "Transformers": {
+            "active": true,
+            "epochs":4,
+            "batch_size":32,
+            "models": {
+                "distilbert-base-uncased": true,
+                "bert-base-uncased": true,
+                "electra-base-discriminator": true
+            }
+        }
+    },
+    "models_evaluation": {
+        "k": 1,
+        "regression_threshold": 1,
+        "tune": false,
+        "save_models":false,
+        "save_log":true,
+        "save_history_performance":false
+    },
+    "datasets_processed": [
+        ["SST5","sst5-processed.csv","english",[0,4]],
+        ["SST2","sst2-processed.csv","english",[0,1]],
+        ["SST2_p","sst2_p-processed.csv","english",[0,1]]
+    ]
+}

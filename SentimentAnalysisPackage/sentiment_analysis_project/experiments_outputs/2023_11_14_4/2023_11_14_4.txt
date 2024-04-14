@@ -1,0 +1,1250 @@
+
+Terminal output for models_evaluation.py
+Dataset range [0, 4]
+Detected range different to (-1,1), will need mappping...
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model AFINN
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.155556
+1       0.000000
+2       0.000000
+3       0.000000
+4       0.111111
+          ...   
+8467    0.000000
+8468    0.075000
+8469    0.057143
+8470    0.000000
+8471    0.090909
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+553 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using AFINN: {'mean_squared_error': 0.3762451436095023, 'mean_absolute_error': 0.5256209218553111, 'root_mean_squared_error': 0.6133882486724882, 'r2_score': 0.0854026912354261, 'explained_variance_score': 0.08554613478556228}
+Results Normalized for SST5 using AFINN: {'mean_squared_error': 0.09406128590237557, 'mean_absolute_error': 0.26281046092765553, 'root_mean_squared_error': 0.3066941243362441, 'correctedness': (0.6933058756637559,), 'r2_score': 0.0854026912354261, 'explained_variance_score': 0.08554613478556228}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model TextBlob
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.125000
+1       0.050000
+2      -0.071429
+3       0.000000
+4       0.500000
+          ...   
+8467    0.175000
+8468    0.133333
+8469    0.616667
+8470    0.000000
+8471    0.483333
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+716 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using TextBlob: {'mean_squared_error': 0.3638939361258248, 'mean_absolute_error': 0.4974938026949727, 'root_mean_squared_error': 0.6032362191760577, 'r2_score': 0.11542668308338078, 'explained_variance_score': 0.1198350325195876}
+Results Normalized for SST5 using TextBlob: {'mean_squared_error': 0.0909734840314562, 'mean_absolute_error': 0.24874690134748634, 'root_mean_squared_error': 0.30161810958802887, 'correctedness': (0.6983818904119712,), 'r2_score': 0.11542668308338078, 'explained_variance_score': 0.1198350325195876}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model Pattern
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.125000
+1       0.050000
+2      -0.071429
+3       0.000000
+4       0.500000
+          ...   
+8467    0.175000
+8468    0.133333
+8469    0.616667
+8470    0.000000
+8471    0.483333
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+716 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using Pattern: {'mean_squared_error': 0.3638939361258248, 'mean_absolute_error': 0.4974938026949727, 'root_mean_squared_error': 0.6032362191760577, 'r2_score': 0.11542668308338078, 'explained_variance_score': 0.1198350325195876}
+Results Normalized for SST5 using Pattern: {'mean_squared_error': 0.0909734840314562, 'mean_absolute_error': 0.24874690134748634, 'root_mean_squared_error': 0.30161810958802887, 'correctedness': (0.6983818904119712,), 'r2_score': 0.11542668308338078, 'explained_variance_score': 0.1198350325195876}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model SenticNet
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.171000
+1       0.137143
+2       0.116947
+3      -0.021833
+4       0.358889
+          ...   
+8467    0.416333
+8468    0.472750
+8469    0.057714
+8470    0.367400
+8471    0.198727
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+52 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using SenticNet: {'mean_squared_error': 0.3668448488950663, 'mean_absolute_error': 0.5077623008152202, 'root_mean_squared_error': 0.6056771820822263, 'r2_score': 0.10825344264961612, 'explained_variance_score': 0.12778151975185303}
+Results Normalized for SST5 using SenticNet: {'mean_squared_error': 0.09171121222376658, 'mean_absolute_error': 0.2538811504076101, 'root_mean_squared_error': 0.30283859104111316, 'correctedness': (0.6971614089588869,), 'r2_score': 0.10825344264961612, 'explained_variance_score': 0.12778151975185303}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model VADER
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.4588
+1       0.0000
+2       0.4404
+3       0.0000
+4       0.4404
+         ...  
+8467    0.5859
+8468    0.7981
+8469    0.8074
+8470    0.0000
+8471    0.5994
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+391 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using VADER: {'mean_squared_error': 0.414180422457507, 'mean_absolute_error': 0.5095902502360717, 'root_mean_squared_error': 0.6435685064214275, 'r2_score': -0.006812462982294987, 'explained_variance_score': 0.03683661152401674}
+Results Normalized for SST5 using VADER: {'mean_squared_error': 0.10354510561437676, 'mean_absolute_error': 0.25479512511803587, 'root_mean_squared_error': 0.32178425321071374, 'correctedness': (0.6782157467892862,), 'r2_score': -0.006812462982294987, 'explained_variance_score': 0.03683661152401674}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model General Inquirer
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.0
+1       0.0
+2       0.0
+3       0.0
+4       0.0
+       ... 
+8467    0.0
+8468    0.0
+8469    0.0
+8470    0.0
+8471    0.0
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+1601 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using General Inquirer: {'mean_squared_error': 0.41221081208687443, 'mean_absolute_error': 0.5451487252124646, 'root_mean_squared_error': 0.6420364569764512, 'r2_score': -0.002024626182559164, 'explained_variance_score': 0.0}
+Results Normalized for SST5 using General Inquirer: {'mean_squared_error': 0.10305270302171861, 'mean_absolute_error': 0.2725743626062323, 'root_mean_squared_error': 0.3210182284882256, 'correctedness': (0.6789817715117744,), 'r2_score': -0.002024626182559164, 'explained_variance_score': 0.0}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model MPQA
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.000000
+1       0.000000
+2      -0.105263
+3       0.000000
+4       0.111111
+          ...   
+8467   -0.111111
+8468    0.000000
+8469    0.428571
+8470    0.000000
+8471    0.090909
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+695 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using MPQA: {'mean_squared_error': 0.3533737960274432, 'mean_absolute_error': 0.49974010755209636, 'root_mean_squared_error': 0.5944525178914151, 'r2_score': 0.140999616010835, 'explained_variance_score': 0.14100924350319544}
+Results Normalized for SST5 using MPQA: {'mean_squared_error': 0.0883434490068608, 'mean_absolute_error': 0.24987005377604818, 'root_mean_squared_error': 0.29722625894570753, 'correctedness': (0.7027737410542925,), 'r2_score': 0.140999616010835, 'explained_variance_score': 0.14100924350319544}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model OpinionFinder
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.055556
+1      -0.071429
+2      -0.105263
+3       0.000000
+4       0.000000
+          ...   
+8467   -0.111111
+8468    0.062500
+8469    0.000000
+8470    0.000000
+8471    0.000000
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+574 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using OpinionFinder: {'mean_squared_error': 0.369335618610831, 'mean_absolute_error': 0.5167804315914705, 'root_mean_squared_error': 0.6077298895157544, 'r2_score': 0.10219874316051125, 'explained_variance_score': 0.10329816150992721}
+Results Normalized for SST5 using OpinionFinder: {'mean_squared_error': 0.09233390465270774, 'mean_absolute_error': 0.25839021579573523, 'root_mean_squared_error': 0.3038649447578772, 'correctedness': (0.6961350552421228,), 'r2_score': 0.10219874316051125, 'explained_variance_score': 0.10329816150992721}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | -0.5000
+2.0                     | 0.0000
+3.0                     | 0.5000
+4.0                     | 1.0000
+
+Model WordNet-Affect
+Ground Truth, y_true:
+0       1.0
+1      -0.5
+2      -0.5
+3       0.0
+4       0.5
+       ... 
+8467    1.0
+8468    0.0
+8469    0.5
+8470    0.5
+8471    0.0
+Name: sentiment, Length: 8472, dtype: float64
+Predictions, y:
+0       0.027778
+1       0.053571
+2      -0.032895
+3      -0.062500
+4       0.097222
+          ...   
+8467    0.069444
+8468    0.062500
+8469    0.000000
+8470    0.125000
+8471    0.102273
+Name: text, Length: 8472, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+294 out of 8472 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST5 using WordNet-Affect: {'mean_squared_error': 0.38584401801740686, 'mean_absolute_error': 0.5336981469929659, 'root_mean_squared_error': 0.6211634390540116, 'r2_score': 0.062069221422589416, 'explained_variance_score': 0.06284555812646686}
+Results Normalized for SST5 using WordNet-Affect: {'mean_squared_error': 0.09646100450435172, 'mean_absolute_error': 0.26684907349648296, 'root_mean_squared_error': 0.3105817195270058, 'correctedness': (0.6894182804729942,), 'r2_score': 0.062069221422589416, 'explained_variance_score': 0.06284555812646686}
+Dataset range [0, 1]
+Detected range different to (-1,1), will need mappping...
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model AFINN
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.155556
+1       0.000000
+2       0.000000
+3       0.111111
+4       0.000000
+          ...   
+8474    0.228571
+8475    0.040000
+8476   -0.030769
+8477    0.000000
+8478   -0.040000
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using AFINN: {'mean_squared_error': 0.9380792974123917, 'mean_absolute_error': 0.963944876905064, 'root_mean_squared_error': 0.9685449382513914, 'r2_score': 0.06060766770198789, 'explained_variance_score': 0.060815363618637264}
+Results Normalized for SST2 using AFINN: {'mean_squared_error': 0.23451982435309793, 'mean_absolute_error': 0.481972438452532, 'root_mean_squared_error': 0.4842724691256957, 'correctedness': (0.5157275308743043,), 'r2_score': 0.06060766770198789, 'explained_variance_score': 0.060815363618637264}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model TextBlob
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.125000
+1       0.050000
+2      -0.071429
+3       0.500000
+4       0.000000
+          ...   
+8474    0.500000
+8475    0.288889
+8476    0.078788
+8477   -0.166667
+8478   -0.230769
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+84 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using TextBlob: {'mean_squared_error': 0.8700596750155594, 'mean_absolute_error': 0.8850031074779025, 'root_mean_squared_error': 0.9327698939264493, 'r2_score': 0.12872249754808385, 'explained_variance_score': 0.1300403027119652}
+Results Normalized for SST2 using TextBlob: {'mean_squared_error': 0.21751491875388984, 'mean_absolute_error': 0.4425015537389512, 'root_mean_squared_error': 0.46638494696322463, 'correctedness': (0.5336150530367754,), 'r2_score': 0.12872249754808385, 'explained_variance_score': 0.1300403027119652}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model Pattern
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.125000
+1       0.050000
+2      -0.071429
+3       0.500000
+4       0.000000
+          ...   
+8474    0.500000
+8475    0.288889
+8476    0.078788
+8477   -0.166667
+8478   -0.230769
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+84 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using Pattern: {'mean_squared_error': 0.8700596750155594, 'mean_absolute_error': 0.8850031074779025, 'root_mean_squared_error': 0.9327698939264493, 'r2_score': 0.12872249754808385, 'explained_variance_score': 0.1300403027119652}
+Results Normalized for SST2 using Pattern: {'mean_squared_error': 0.21751491875388984, 'mean_absolute_error': 0.4425015537389512, 'root_mean_squared_error': 0.46638494696322463, 'correctedness': (0.5336150530367754,), 'r2_score': 0.12872249754808385, 'explained_variance_score': 0.1300403027119652}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model SenticNet
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.171000
+1       0.137143
+2       0.116947
+3       0.358889
+4      -0.125000
+          ...   
+8474    0.496000
+8475    0.089133
+8476   -0.215000
+8477   -0.007800
+8478    0.164200
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using SenticNet: {'mean_squared_error': 0.8797761412149474, 'mean_absolute_error': 0.8978057642713072, 'root_mean_squared_error': 0.9379638272422596, 'r2_score': 0.11899243115613223, 'explained_variance_score': 0.12689199069780466}
+Results Normalized for SST2 using SenticNet: {'mean_squared_error': 0.21994403530373685, 'mean_absolute_error': 0.4489028821356536, 'root_mean_squared_error': 0.4689819136211298, 'correctedness': (0.5310180863788703,), 'r2_score': 0.11899243115613223, 'explained_variance_score': 0.12689199069780466}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model VADER
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.4588
+1       0.0000
+2       0.4404
+3       0.4404
+4       0.0000
+         ...  
+8474    0.8934
+8475    0.7096
+8476    0.2023
+8477    0.0000
+8478   -0.4019
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using VADER: {'mean_squared_error': 0.867609337321618, 'mean_absolute_error': 0.8102655383889609, 'root_mean_squared_error': 0.93145549401011, 'r2_score': 0.1311762649935213, 'explained_variance_score': 0.14955844381933248}
+Results Normalized for SST2 using VADER: {'mean_squared_error': 0.2169023343304045, 'mean_absolute_error': 0.40513276919448044, 'root_mean_squared_error': 0.465727747005055, 'correctedness': (0.5342722529949451,), 'r2_score': 0.1311762649935213, 'explained_variance_score': 0.14955844381933248}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model General Inquirer
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.0
+1       0.0
+2       0.0
+3       0.0
+4       0.0
+       ... 
+8474    0.0
+8475    0.0
+8476    0.0
+8477    0.0
+8478    0.0
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using General Inquirer: {'mean_squared_error': 1.0, 'mean_absolute_error': 1.0, 'root_mean_squared_error': 1.0, 'r2_score': -0.0013997056424146503, 'explained_variance_score': 0.0}
+Results Normalized for SST2 using General Inquirer: {'mean_squared_error': 0.25, 'mean_absolute_error': 0.5, 'root_mean_squared_error': 0.5, 'correctedness': (0.5,), 'r2_score': -0.0013997056424146503, 'explained_variance_score': 0.0}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model MPQA
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.000000
+1       0.000000
+2      -0.105263
+3       0.111111
+4       0.000000
+          ...   
+8474    0.571429
+8475    0.000000
+8476   -0.153846
+8477   -0.200000
+8478   -0.100000
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+118 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using MPQA: {'mean_squared_error': 0.864716487685026, 'mean_absolute_error': 0.8963354339998536, 'root_mean_squared_error': 0.9299013322310201, 'r2_score': 0.13407316376807243, 'explained_variance_score': 0.13411945317410245}
+Results Normalized for SST2 using MPQA: {'mean_squared_error': 0.2161791219212565, 'mean_absolute_error': 0.4481677169999268, 'root_mean_squared_error': 0.46495066611551006, 'correctedness': (0.5350493338844899,), 'r2_score': 0.13407316376807243, 'explained_variance_score': 0.13411945317410245}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model OpinionFinder
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.055556
+1      -0.071429
+2      -0.105263
+3       0.000000
+4       0.000000
+          ...   
+8474    0.500000
+8475    0.033333
+8476   -0.115385
+8477   -0.100000
+8478   -0.100000
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+52 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using OpinionFinder: {'mean_squared_error': 0.9067060321042526, 'mean_absolute_error': 0.9335699810418354, 'root_mean_squared_error': 0.9522111279040235, 'r2_score': 0.09202484634659969, 'explained_variance_score': 0.09273762594676238}
+Results Normalized for SST2 using OpinionFinder: {'mean_squared_error': 0.22667650802606315, 'mean_absolute_error': 0.4667849905209177, 'root_mean_squared_error': 0.47610556395201176, 'correctedness': (0.5238944360479882,), 'r2_score': 0.09202484634659969, 'explained_variance_score': 0.09273762594676238}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model WordNet-Affect
+Ground Truth, y_true:
+0       1.0
+1      -1.0
+2      -1.0
+3       1.0
+4       1.0
+       ... 
+8474   -1.0
+8475    1.0
+8476    1.0
+8477    1.0
+8478    1.0
+Name: sentiment, Length: 8479, dtype: float64
+Predictions, y:
+0       0.027778
+1       0.053571
+2      -0.032895
+3       0.097222
+4       0.000000
+          ...   
+8474    0.142857
+8475   -0.008333
+8476    0.076923
+8477   -0.075000
+8478   -0.025000
+Name: text, Length: 8479, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 8479 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2 using WordNet-Affect: {'mean_squared_error': 0.9519511646518048, 'mean_absolute_error': 0.9698367362102828, 'root_mean_squared_error': 0.9756798474150242, 'r2_score': 0.04671638393172883, 'explained_variance_score': 0.04733819400387118}
+Results Normalized for SST2 using WordNet-Affect: {'mean_squared_error': 0.2379877911629512, 'mean_absolute_error': 0.4849183681051414, 'root_mean_squared_error': 0.4878399237075121, 'correctedness': (0.5121600762924878,), 'r2_score': 0.04671638393172883, 'explained_variance_score': 0.04733819400387118}
+Dataset range [0, 1]
+Detected range different to (-1,1), will need mappping...
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model AFINN
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0       -0.040000
+1       -0.100000
+2        0.200000
+3        0.100000
+4       -0.150000
+           ...   
+67028    0.400000
+67029   -0.533333
+67030    0.000000
+67031    0.000000
+67032   -0.114286
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+6 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using AFINN: {'mean_squared_error': 0.888384644139106, 'mean_absolute_error': 0.9316467104176834, 'root_mean_squared_error': 0.9425415874851921, 'r2_score': 0.09967076872141811, 'explained_variance_score': 0.10722239532712774}
+Results Normalized for SST2_p using AFINN: {'mean_squared_error': 0.2220961610347765, 'mean_absolute_error': 0.4658233552088417, 'root_mean_squared_error': 0.47127079374259606, 'correctedness': (0.5287292062574039,), 'r2_score': 0.09967076872141811, 'explained_variance_score': 0.10722239532712774}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model TextBlob
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.136364
+1        0.000000
+2        0.450000
+3        0.500000
+4       -0.700000
+           ...   
+67028    1.000000
+67029   -0.700000
+67030    0.100000
+67031    0.000000
+67032   -0.231818
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+989 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using TextBlob: {'mean_squared_error': 0.8350148596744937, 'mean_absolute_error': 0.8650101678411867, 'root_mean_squared_error': 0.913791474940806, 'r2_score': 0.1537581252932907, 'explained_variance_score': 0.1559599460436093}
+Results Normalized for SST2_p using TextBlob: {'mean_squared_error': 0.20875371491862343, 'mean_absolute_error': 0.43250508392059334, 'root_mean_squared_error': 0.456895737470403, 'correctedness': (0.543104262529597,), 'r2_score': 0.1537581252932907, 'explained_variance_score': 0.1559599460436093}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model Pattern
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.136364
+1        0.000000
+2        0.450000
+3        0.500000
+4       -0.700000
+           ...   
+67028    1.000000
+67029   -0.700000
+67030    0.100000
+67031    0.000000
+67032   -0.231818
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+989 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using Pattern: {'mean_squared_error': 0.8350148596744937, 'mean_absolute_error': 0.8650101678411867, 'root_mean_squared_error': 0.913791474940806, 'r2_score': 0.1537581252932907, 'explained_variance_score': 0.1559599460436093}
+Results Normalized for SST2_p using Pattern: {'mean_squared_error': 0.20875371491862343, 'mean_absolute_error': 0.43250508392059334, 'root_mean_squared_error': 0.456895737470403, 'correctedness': (0.543104262529597,), 'r2_score': 0.1537581252932907, 'explained_variance_score': 0.1559599460436093}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model SenticNet
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0       -0.497000
+1        0.288000
+2        0.657667
+3       -0.327250
+4       -0.583750
+           ...   
+67028    0.822000
+67029   -0.662667
+67030    0.055800
+67031    0.164500
+67032   -0.151143
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+32 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using SenticNet: {'mean_squared_error': 0.791056434935717, 'mean_absolute_error': 0.8051531786768794, 'root_mean_squared_error': 0.889413534266101, 'r2_score': 0.19830758370005164, 'explained_variance_score': 0.1986578914406929}
+Results Normalized for SST2_p using SenticNet: {'mean_squared_error': 0.19776410873392924, 'mean_absolute_error': 0.4025765893384397, 'root_mean_squared_error': 0.4447067671330505, 'correctedness': (0.5552932328669495,), 'r2_score': 0.19830758370005164, 'explained_variance_score': 0.1986578914406929}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model VADER
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0       -0.1779
+1       -0.3400
+2        0.8442
+3        0.4754
+4       -0.5423
+          ...  
+67028    0.7430
+67029   -0.8934
+67030    0.0000
+67031    0.0000
+67032   -0.3400
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using VADER: {'mean_squared_error': 0.7862361873171423, 'mean_absolute_error': 0.8091527143347307, 'root_mean_squared_error': 0.8866996037650757, 'r2_score': 0.2031926409347018, 'explained_variance_score': 0.20324109470005125}
+Results Normalized for SST2_p using VADER: {'mean_squared_error': 0.19655904682928557, 'mean_absolute_error': 0.40457635716736534, 'root_mean_squared_error': 0.44334980188253786, 'correctedness': (0.5566501981174621,), 'r2_score': 0.2031926409347018, 'explained_variance_score': 0.20324109470005125}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model General Inquirer
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.0
+1        0.0
+2        0.0
+3        0.0
+4        0.0
+        ... 
+67028    0.0
+67029    0.0
+67030    0.0
+67031    0.0
+67032    0.0
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+0 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using General Inquirer: {'mean_squared_error': 1.0, 'mean_absolute_error': 1.0, 'root_mean_squared_error': 1.0, 'r2_score': -0.013445287712115839, 'explained_variance_score': 0.0}
+Results Normalized for SST2_p using General Inquirer: {'mean_squared_error': 0.25, 'mean_absolute_error': 0.5, 'root_mean_squared_error': 0.5, 'correctedness': (0.5,), 'r2_score': -0.013445287712115839, 'explained_variance_score': 0.0}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model MPQA
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.000000
+1        0.000000
+2        0.333333
+3       -0.250000
+4       -0.250000
+           ...   
+67028    0.000000
+67029   -1.000000
+67030    0.400000
+67031    0.500000
+67032   -0.142857
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+6253 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using MPQA: {'mean_squared_error': 0.7724842882040284, 'mean_absolute_error': 0.7957123870887566, 'root_mean_squared_error': 0.8789108533884585, 'r2_score': 0.21712943828797948, 'explained_variance_score': 0.22157283751511858}
+Results Normalized for SST2_p using MPQA: {'mean_squared_error': 0.1931210720510071, 'mean_absolute_error': 0.3978561935443783, 'root_mean_squared_error': 0.43945542669422927, 'correctedness': (0.5605445733057708,), 'r2_score': 0.21712943828797948, 'explained_variance_score': 0.22157283751511858}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model OpinionFinder
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.000000
+1        0.000000
+2        0.333333
+3        0.250000
+4       -0.250000
+           ...   
+67028    0.500000
+67029   -0.333333
+67030    0.200000
+67031    0.250000
+67032    0.000000
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+2649 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using OpinionFinder: {'mean_squared_error': 0.8481983274679789, 'mean_absolute_error': 0.8758017959830315, 'root_mean_squared_error': 0.9209768332960275, 'r2_score': 0.1403974019822788, 'explained_variance_score': 0.14883727033088034}
+Results Normalized for SST2_p using OpinionFinder: {'mean_squared_error': 0.2120495818669947, 'mean_absolute_error': 0.43790089799151577, 'root_mean_squared_error': 0.46048841664801377, 'correctedness': (0.5395115833519862,), 'r2_score': 0.1403974019822788, 'explained_variance_score': 0.14883727033088034}
+
+Original Value (y_true) | Mapped Value
+------------------------|--------------
+0.0                     | -1.0000
+1.0                     | 1.0000
+
+Model WordNet-Affect
+Ground Truth, y_true:
+0       -1.0
+1       -1.0
+2        1.0
+3       -1.0
+4       -1.0
+        ... 
+67028    1.0
+67029   -1.0
+67030    1.0
+67031    1.0
+67032   -1.0
+Name: sentiment, Length: 67033, dtype: float64
+Predictions, y:
+0        0.075000
+1        0.093750
+2        0.312500
+3        0.250000
+4       -0.218750
+           ...   
+67028    0.375000
+67029   -0.125000
+67030    0.050000
+67031    0.187500
+67032   -0.071429
+Name: text, Length: 67033, dtype: float64
+
+Normalizing metrics...
+Dataset range: y_min = -1, y_max = 1
+Maximum error = 2
+The maximum error is the division factor to normalize mse and mae
+17 out of 67033 are exact matches.
+y_true outliers: []
+y_pred outliers: []
+Indices of y_true outliers: []
+
+Results for SST2_p using WordNet-Affect: {'mean_squared_error': 0.9152363850459893, 'mean_absolute_error': 0.9417687390992455, 'root_mean_squared_error': 0.9566798759491021, 'r2_score': 0.0724579984324707, 'explained_variance_score': 0.08184586888124434}
+Results Normalized for SST2_p using WordNet-Affect: {'mean_squared_error': 0.2288090962614973, 'mean_absolute_error': 0.47088436954962276, 'root_mean_squared_error': 0.47833993797455104, 'correctedness': (0.521660062025449,), 'r2_score': 0.0724579984324707, 'explained_variance_score': 0.08184586888124434}

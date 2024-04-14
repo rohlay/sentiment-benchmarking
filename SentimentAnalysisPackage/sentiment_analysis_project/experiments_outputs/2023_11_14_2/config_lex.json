@@ -1,0 +1,19 @@
+{
+    "models": {
+        "AFINN": true,
+        "TextBlob": true,
+        "Pattern": true,
+        "SenticNet": true,
+        "VADER": true,
+        "General Inquirer": true,
+        "MPQA": true,
+        "OpinionFinder": true,
+        "WordNet-Affect": true
+      },
+    "save_log": true,
+    "datasets_processed": [
+        ["SST5","sst5-processed.csv","english",[0,4]],
+        ["SST2","sst2-processed.csv","english",[0,1]],
+        ["SST2_p","sst2_p-processed.csv","english",[0,1]]
+    ]
+}

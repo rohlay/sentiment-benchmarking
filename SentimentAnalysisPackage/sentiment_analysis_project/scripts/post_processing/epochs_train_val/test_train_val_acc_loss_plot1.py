@@ -1,0 +1,54 @@
+import matplotlib.pyplot as plt
+
+# Your provided training accuracy and loss data
+#train_accuracy = [0.5673006176948547, 0.6845054030418396, 0.720625102519989, 0.7375792264938354, 0.7366946935653687, 0.7465723156929016, 0.7484888434410095, 0.752027153968811, 0.763526439666748, 0.7627893090248108, 0.7703081369400024, 0.7694235444068909, 0.7708978056907654, 0.7726669907569885, 0.7865251302719116]
+#train_loss = [0.6768027544021606, 0.5986692905426025, 0.5582386255264282, 0.5455353260040283, 0.5391067862510681, 0.5234644412994385, 0.5185672640800476, 0.5122523903846741, 0.49945539236068726, 0.5038594603538513, 0.4940754175186157, 0.4845285415649414, 0.48458603024482727, 0.4797060191631317, 0.46455419063568115]
+
+
+# Your validation accuracy and loss data (replace with your actual data)
+#val_accuracy = [0.7128537893295288, 0.7429245114326477, 0.7411556839942932, 0.7476415038108826, 0.7523584961891174, 0.760613203048706, 0.7564858198165894, 0.7547169923782349, 0.7576650977134705, 0.7623820900917053, 0.7594339847564697, 0.7582547068595886, 0.7529481053352356, 0.7629716992378235, 0.7535377144813538]
+#val_loss = [0.6024328470230103, 0.5395463109016418, 0.5287937521934509, 0.5236427783966064, 0.5163961052894592, 0.5171312689781189, 0.5143287777900696, 0.5153529047966003, 0.5120114088058472, 0.5124961137771606, 0.5109334588050842, 0.5141598582267761, 0.5147954821586609, 0.5125686526298523, 0.5168646574020386]
+
+# BERT, SST_2
+train_accuracy = [0.7546808123588562, 0.878814697265625, 0.950169563293457, 0.9737579226493835, 0.987763524055481]
+train_loss = [0.5001420974731445, 0.2916879951953888, 0.1339990347623825, 0.07264110445976257, 0.0358157753944397]
+val_accuracy = [0.7977594137191772, 0.807193398475647, 0.8213443160057068, 0.8113207817077637, 0.823113203048706]
+val_loss = [0.45546936988830566, 0.4538884162902832, 0.7025209665298462, 0.7389566898345947, 0.6809608936309814]
+
+
+epochs = list(range(1, len(train_accuracy) + 1))
+
+# Create subplots
+fig, (ax1, ax3) = plt.subplots(1, 2, figsize=(12, 5))  # 1 row, 2 columns
+
+# Plot training accuracy and loss
+color = 'tab:red'
+ax1.set_xlabel('Epochs')
+ax1.set_ylabel('Train Accuracy', color=color)
+ax1.plot(epochs, train_accuracy, color=color, marker='o')
+ax1.tick_params(axis='y', labelcolor=color)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('Train Loss', color=color)  
+ax2.plot(epochs, train_loss, color=color, marker='o')
+ax2.tick_params(axis='y', labelcolor=color)
+ax1.set_title('Training Accuracy and Loss')
+ax1.grid(True)
+
+# Plot validation accuracy and loss
+color = 'tab:green'
+ax3.set_xlabel('Epochs')
+ax3.set_ylabel('Validation Accuracy', color=color)
+ax3.plot(epochs, val_accuracy, color=color, marker='o')
+ax3.tick_params(axis='y', labelcolor=color)
+ax4 = ax3.twinx()
+color = 'tab:purple'
+ax4.set_ylabel('Validation Loss', color=color)  
+ax4.plot(epochs, val_loss, color=color, marker='o')
+ax4.tick_params(axis='y', labelcolor=color)
+ax3.set_title('Validation Accuracy and Loss')
+ax3.grid(True)
+
+# Show the plot with a tight layout
+fig.tight_layout()
+plt.show()
