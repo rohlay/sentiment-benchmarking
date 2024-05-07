@@ -31,7 +31,11 @@
 
 # Complete List of Methods
 
+<<<<<<< Updated upstream
 # Lexicon Methods 
+=======
+## Lexicon methods 
+>>>>>>> Stashed changes
   - AFINN
   - WordNet (TextBlob, Pattern, SentiWordNet)
   - SenticNet
@@ -40,11 +44,19 @@
   - MPQA
   - OpinionFinder
 
+<<<<<<< Updated upstream
 # Machine Learning Methods
+=======
+## Machine Learning
+>>>>>>> Stashed changes
 
-![AI hierarchy](AI_hierarchy.png)
+![AI hierarchy](images/AI_hierarchy.png)
 
+<<<<<<< Updated upstream
 ## Traditional Methods
+=======
+### Traditional methods
+>>>>>>> Stashed changes
   - Naive Bayes
   - Support Vector Machines (SVM)
   - Decision Trees
@@ -55,14 +67,26 @@
   - Artificial Neural Networks (ANN)
 
 
+<<<<<<< Updated upstream
 ## Deep Learning Methods
+=======
+### Deep learning methods
+>>>>>>> Stashed changes
   - Multilayer Perceptron (MLP)
   - Convolutional Neural Networks (CNN)
   - Recurrent Neural Networks (RNN)
   - Long Short-Term Memory (LSTM)
   - Gated Recurrent Units (GRU)
 
+<<<<<<< Updated upstream
 ## Transformer Models 
+=======
+### Transformer models 
+>>>>>>> Stashed changes
   - BERT
   - DistilBERT
   - ELECTRA
+
+# Results on the SST dataset
+
+![AI hierarchy](images/All_ML_classification.png)
