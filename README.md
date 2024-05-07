@@ -30,12 +30,7 @@
 ![Sentiment Analysis Process](SA_Process.png)
 
 # Complete List of Methods
-
-<<<<<<< Updated upstream
-# Lexicon Methods 
-=======
-## Lexicon methods 
->>>>>>> Stashed changes
+### Lexicon methods 
   - AFINN
   - WordNet (TextBlob, Pattern, SentiWordNet)
   - SenticNet
@@ -44,19 +39,11 @@
   - MPQA
   - OpinionFinder
 
-<<<<<<< Updated upstream
-# Machine Learning Methods
-=======
-## Machine Learning
->>>>>>> Stashed changes
 
+## Machine Learning Methods
 ![AI hierarchy](images/AI_hierarchy.png)
 
-<<<<<<< Updated upstream
-## Traditional Methods
-=======
 ### Traditional methods
->>>>>>> Stashed changes
   - Naive Bayes
   - Support Vector Machines (SVM)
   - Decision Trees
@@ -66,27 +53,35 @@
   - K-Nearest Neighbours (KNN)
   - Artificial Neural Networks (ANN)
 
-
-<<<<<<< Updated upstream
-## Deep Learning Methods
-=======
 ### Deep learning methods
->>>>>>> Stashed changes
   - Multilayer Perceptron (MLP)
   - Convolutional Neural Networks (CNN)
   - Recurrent Neural Networks (RNN)
   - Long Short-Term Memory (LSTM)
   - Gated Recurrent Units (GRU)
 
-<<<<<<< Updated upstream
-## Transformer Models 
-=======
 ### Transformer models 
->>>>>>> Stashed changes
   - BERT
   - DistilBERT
   - ELECTRA
 
 # Results on the SST dataset
+## Dataset Information
+Source: huggingface
+
+
+## Classes (ML classification)
+| Dataset | Best Model ML            | Avg. ML Models | Best Model DL (MLP) | Avg. DL Models | Best Model TF (ELECTRA) | Avg. TF Models |
+|---------|--------------------------|----------------|---------------------|----------------|-------------------------|----------------|
+| SST2p   | 0.91 (Random Forest)     | 0.85           | 0.84                | 0.77           | 0.93                    | 0.93           |
+| SST2    | 0.78 (Naïve Bayes)       | 0.72           | 0.75                | 0.70           | 0.85                    | 0.83           |
+| SST5    | 0.40 (SVM)               | 0.34           | 0.37                | 0.35           | 0.44                    | 0.43           |
+
+## Continuous Values (ML regression)
+
+
+
 
 ![AI hierarchy](images/All_ML_classification.png)
+
+## Comparison Table
