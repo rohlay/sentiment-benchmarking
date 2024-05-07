@@ -67,7 +67,7 @@
 
 # Results on the SST dataset
 ## Dataset Information
-- **SST Dataset:**
+**SST Dataset:**
   - Same textual content
   - Different text granularity (phrases/sentences)
   - Different sentiment granularity (2/5 classes)
