@@ -31,7 +31,7 @@
 
 # Complete List of Methods
 
-# Lexicon methods 
+# Lexicon Methods 
   - AFINN
   - WordNet (TextBlob, Pattern, SentiWordNet)
   - SenticNet
@@ -40,11 +40,11 @@
   - MPQA
   - OpinionFinder
 
-# Machine Learning
+# Machine Learning Methods
 
 ![AI hierarchy](AI_hierarchy.png)
 
-## Traditional methods
+## Traditional Methods
   - Naive Bayes
   - Support Vector Machines (SVM)
   - Decision Trees
@@ -55,14 +55,14 @@
   - Artificial Neural Networks (ANN)
 
 
-## Deep learning methods
+## Deep Learning Methods
   - Multilayer Perceptron (MLP)
   - Convolutional Neural Networks (CNN)
   - Recurrent Neural Networks (RNN)
   - Long Short-Term Memory (LSTM)
   - Gated Recurrent Units (GRU)
 
-## Transformer models 
+## Transformer Models 
   - BERT
   - DistilBERT
   - ELECTRA
