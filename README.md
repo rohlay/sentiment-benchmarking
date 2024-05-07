@@ -27,4 +27,4 @@
      - Run `LEX_plots_and_subplots.py`.
 
 
-![Sentiment Analysis Process](SA_process.png)
+![Sentiment Analysis Process](SA_Process.png)
