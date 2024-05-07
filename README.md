@@ -81,7 +81,8 @@ Source: huggingface
 
 
 
-## Classes (ML classification)
+## Classes (Classification Accuracy Score)
+ML classification
 ![AI hierarchy](images/All_ML_classification.png)
 | Dataset | Best Model ML            | Avg. ML Models | Best Model DL (MLP) | Avg. DL Models | Best Model TF (ELECTRA) | Avg. TF Models |
 |---------|--------------------------|----------------|---------------------|----------------|-------------------------|----------------|
@@ -89,7 +90,7 @@ Source: huggingface
 | SST2    | 0.78 (Naïve Bayes)       | 0.72           | 0.75                | 0.70           | 0.85                    | 0.83           |
 | SST5    | 0.40 (SVM)               | 0.34           | 0.37                | 0.35           | 0.44                    | 0.43           |
 
-## Continuous Values (ML regression)
+## Continuous Values (Normalized Mean Absolute error 0.0 - 1.0)
 ### Lexicon
 |       | AFINN | TextBlob | Pattern | SenticNet | VADER | General Inquirer | MPQA | OpinionFinder | SentiWordNet | Avg. |
 |-------|-------|----------|---------|-----------|-------|------------------|------|---------------|--------------|------|
@@ -97,6 +98,7 @@ Source: huggingface
 | SST2  | 0.48  | 0.44     | 0.44    | 0.45      | 0.41  | 0.50             | 0.45 | 0.47          | 0.48         | 0.46 |
 | SST2p | 0.47  | 0.43     | 0.43    | 0.40      | 0.40  | 0.50             | 0.40 | 0.44          | 0.47         | 0.44 |
 
+ML regression
 ### Traditional Machine Learning
 |       | SVM  | Decision Tree | Random Forest | Linear Regression | Gradient Boosting | KNN  | ANN  | Avg. |
 |-------|------|---------------|---------------|-------------------|-------------------|------|------|------|
