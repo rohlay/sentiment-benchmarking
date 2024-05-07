@@ -26,5 +26,43 @@
      - Ensure the metrics are positioned in `/post_processing/lexicon_data/metrics_lex`.
      - Run `LEX_plots_and_subplots.py`.
 
-
+# End-to-end Sentiment Analysis Process
 ![Sentiment Analysis Process](SA_Process.png)
+
+# Complete List of Methods
+
+# Lexicon methods 
+  - AFINN
+  - WordNet (TextBlob, Pattern, SentiWordNet)
+  - SenticNet
+  - VADER
+  - General Inquirer
+  - MPQA
+  - OpinionFinder
+
+# Machine Learning
+
+![AI hierarchy](AI_hierarchy.png)
+
+## Traditional methods
+  - Naive Bayes
+  - Support Vector Machines (SVM)
+  - Decision Trees
+  - Random Forest
+  - Logistic Regression / Linear Regression
+  - Gradient Boosting Machines (GBMs)
+  - K-Nearest Neighbours (KNN)
+  - Artificial Neural Networks (ANN)
+
+
+## Deep learning methods
+  - Multilayer Perceptron (MLP)
+  - Convolutional Neural Networks (CNN)
+  - Recurrent Neural Networks (RNN)
+  - Long Short-Term Memory (LSTM)
+  - Gated Recurrent Units (GRU)
+
+## Transformer models 
+  - BERT
+  - DistilBERT
+  - ELECTRA
