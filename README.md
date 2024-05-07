@@ -25,3 +25,6 @@
    - For lexicon visualizations:
      - Ensure the metrics are positioned in `/post_processing/lexicon_data/metrics_lex`.
      - Run `LEX_plots_and_subplots.py`.
+
+
+![Sentiment Analysis Process](SA_process.png)
