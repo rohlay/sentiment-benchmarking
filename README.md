@@ -4,7 +4,7 @@
 **2. Initialization**
    - Download word embedding files and place them in `/input_data/glove_embeddings`.
    - Download lexicon files and place them in `/lexicon_files/`.
-   - Insert the dataset `data.csv` into `/datasets/raw`. After preprocessing, relocate `data-processed.csv` to `/datasets/processed`.
+   - Insert the dataset ('sentiment', 'text') `data.csv` into `/datasets/raw`. After preprocessing, relocate `data-processed.csv` to `/datasets/processed`.
 
 **3. Evaluation Process**
    - For machine learning analysis:
