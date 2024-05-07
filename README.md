@@ -1,5 +1,5 @@
 # Execution Steps
-**1. Setting up the Python environment:** Run `pip install -r requirements.txt` to install all required packages.
+**1. Setting up the Python 3.10 environment:** Run `pip install -r requirements.txt` to install all required packages.
 
 **2. Initialization**
    - Download word embedding files and place them in `/input_data/glove_embeddings`.
