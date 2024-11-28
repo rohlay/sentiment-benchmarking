@@ -27,7 +27,7 @@
      - Run `LEX_plots_and_subplots.py`.
 
 # End-to-end Sentiment Analysis Process
-![Sentiment Analysis Process](SA_Process.png)
+![Sentiment Analysis Process](images/SA_process.png)
 
 # Complete List of Methods
 ### Lexicon methods 
